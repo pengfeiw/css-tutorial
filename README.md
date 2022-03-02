@@ -8,9 +8,9 @@
 
 本教程会介绍CSS的所有内容，既可以当做入门教程，也可以用作参考手册。
 
-教程中的例子，使用codepen内嵌在文档中，方便读者调试和学习。教程参考了谷歌的learn css教程，你可以认为本教程是它的半翻译中文版本。
+教程中的例子，使用 codepen 内嵌在文档中，方便读者调试和学习。教程参考了谷歌的 [learn css](https://web.dev/learn/css/) 教程，你可以认为本教程是它的半翻译中文版本。
 
-如果教程有任何问题，可以在网站文章下方留言，github上提交issue或者联系我。
+如果教程有任何问题，可以在文章下方留言或者提交 [issue](https://github.com/pengfeiw/css-tutorial/issues)。
 
 ## 内容
 
