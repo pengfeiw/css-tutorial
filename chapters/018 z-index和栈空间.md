@@ -52,7 +52,7 @@ MDN中还提到了下面两点内容，作为补充。
 
 `z-index`接受两种值：关键字`auto`、整数。
 1. `z-index:auto;`: 元素在所属栈空间内的栈层级为0，元素不会创建新的栈空间（局部栈空间），除非该元素是页面根元素，页面根元素默认会创建一个栈空间。
-2. `z-index:<interger>`: 元素在所属栈空间内的栈层级为0设置的`<interger>`，元素会创建一个新的局部栈空间。
+2. `z-index:<interger>`: 元素在所属栈空间内的栈层级为0，设置的`<interger>`，元素会创建一个新的局部栈空间。
 
 所以前面那个例子，我们设置了`z-index:-1;`没有效果，因为`<span>`元素处于新的局部栈空间内。而它的父元素在外层栈空间内的栈层级为0。
 
@@ -85,7 +85,7 @@ MDN中还提到了下面两点内容，作为补充。
 3. 处在正常文档流内，position为static的非内联（non-inline）元素。
 4. position为static的浮动元素。
 5. 处在正常文档流内，position为static的内联（inline）元素，包括内联table和内联块（inline blocks）。
-6. `z-index`为0的并且创建了局部站那空间的元素和`z-index`为0并且position为非static的元素。
+6. `z-index`为0的并且创建了局部栈空间的元素和`z-index`为0并且position为非static的元素。
 7. `z-index`为正值的并且创建了局部栈空间的元素，`z-index`最小的先绘制。
 
 更详细的绘制顺序可以参考[这里](https://www.w3.org/TR/2012/WD-css3-positioning-20120207/#det-stacking-context)。
