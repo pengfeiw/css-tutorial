@@ -32,7 +32,7 @@ MDN中还提到了下面两点内容，作为补充。
 
 每个元素box都属于一个栈空间，这些元素box在栈空间内都有一个整数的**栈层级**，元素的**栈层级**可以用`z-index`，默认**栈层级**为0，同一个栈空间内，栈层级大的元素永远在栈层级小的元素的前面，栈层级大表示其z坐标大，越靠近屏幕外面，离人眼越近，所以一般我们可以通过设置`z-index`使某个元素显示在其他元素的上面。
 
-![stacking context](https://cdn.jsdelivr.net/gh/pengfeiw/PengfeiBlog@1.0.0/image/130.jpg)
+![stacking context](https://pengfeiw.github.io/images/blog/130.jpg)
 
 ### 栈空间的创建
 
