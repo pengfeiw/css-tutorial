@@ -1,6 +1,6 @@
 # CSS教程
 
-教程在线阅读地址：[CSS教程](http://www.pengfeixc.com/tutorial/css/introduction)。
+教程在线阅读地址：[CSS教程](https://github.com/pengfeiw/css-tutorial/blob/master/chapters/001%20%E7%9B%92%E6%A8%A1%E5%9E%8B.md)。
 
 这是针对新人的CSS入门级教程。
 
